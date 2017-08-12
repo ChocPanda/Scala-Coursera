@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.scalastyle:scalastyle_2.10:0.8.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalastyle/scalastyle_2.10/jars/scalastyle_2.10-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.scalastyle/scalastyle_2.10/srcs/scalastyle_2.10-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
