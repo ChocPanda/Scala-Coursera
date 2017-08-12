@@ -1,0 +1,20 @@
+coursier.ResolutionException: Encountered 1 error(s) in dependency resolution:
+  org.scalacheck:scalacheck_2.11:1.12.1:
+    download error:
+      Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org)
+      Caught java.net.UnknownHostException: repo.artima.com (repo.artima.com)
+      Caught java.net.UnknownHostException: oss.sonatype.org (oss.sonatype.org)
+    not found:
+      /home/matt/.ivy2/local/org.scalacheck/scalacheck_2.11/1.12.1/ivys/ivy.xml
+      /home/matt/.sbt/preloaded/org.scalacheck/scalacheck_2.11/1.12.1/ivys/ivy.xml
+      /home/matt/.sbt/preloaded/org/scalacheck/scalacheck_2.11/1.12.1/scalacheck_2.11-1.12.1.pom
+[error] (*:ssExtractDependencies) coursier.ResolutionException: Encountered 1 error(s) in dependency resolution:
+[error]   org.scalacheck:scalacheck_2.11:1.12.1:
+[error]     download error:
+[error]       Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org)
+[error]       Caught java.net.UnknownHostException: repo.artima.com (repo.artima.com)
+[error]       Caught java.net.UnknownHostException: oss.sonatype.org (oss.sonatype.org)
+[error]     not found:
+[error]       /home/matt/.ivy2/local/org.scalacheck/scalacheck_2.11/1.12.1/ivys/ivy.xml
+[error]       /home/matt/.sbt/preloaded/org.scalacheck/scalacheck_2.11/1.12.1/ivys/ivy.xml
+[error]       /home/matt/.sbt/preloaded/org/scalacheck/scalacheck_2.11/1.12.1/scalacheck_2.11-1.12.1.pom
