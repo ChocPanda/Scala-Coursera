@@ -1,0 +1,477 @@
+[0m[[33mwarn[0m] [0mMultiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang:scala-reflect:(2.11.2, 2.11.7)[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b812f7c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b226a28[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511eae31[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e2f96c9[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d1abb4e[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7656b699[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@470bf440[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.7 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 44ms :: artifacts dl 4ms[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT compile produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT runtime produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT test produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT provided produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT optional produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT compile-internal produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT runtime-internal produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT test-internal produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT plugin produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT sources produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT docs produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT pom produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT scala-tool produced in /home/matt/IdeaProjects/Coursera/Part_1/Week_1-1/example/target/resolution-cache/reports/progfun1-example-progfun1-example$sources_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (44ms resolve - 4ms download)[0m

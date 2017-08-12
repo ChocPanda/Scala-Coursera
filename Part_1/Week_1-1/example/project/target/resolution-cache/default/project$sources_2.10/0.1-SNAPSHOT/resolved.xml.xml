@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="project$sources_2.10"
+		revision="0.1-SNAPSHOT"
+		status="integration"
+		publication="20170514204958"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scalaj" name="scalaj-http_2.10" rev="2.2.1" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="scalaj-http_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalariform" name="scalariform_2.10" rev="0.1.7" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="scalariform_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="jline" rev="2.10.6" transitive="false" conf="scala-tool->master(*),compile,compile(*),master">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.6" transitive="false" conf="scala-tool->master(*),compile,runtime(*),runtime,compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.fusesource.jansi" name="jansi" rev="1.4" transitive="false" conf="scala-tool->master(*),compile,compile(*),master">
+			<artifact name="jansi" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalastyle" name="scalastyle-sbt-plugin" rev="0.8.0" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="scalastyle-sbt-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scalastyle" name="scalastyle_2.10" rev="0.8.0" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;compile-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master">
+			<artifact name="scalastyle_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;compile-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;scala-tool->default,master(*),compile,runtime(*),runtime,optional,optional(default),compile(*),master" info.apiURL="http://www.scala-lang.org/api/2.10.6/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.10" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.typesafe" name="config" rev="1.2.0" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+			<artifact name="config" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" transitive="false" conf="scala-tool->default,compile,runtime,optional,optional(default),master">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>
