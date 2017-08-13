@@ -1,7 +1,10 @@
 # Scala-Coursera
 
 This is my work on the Coursera course on Scala. I am trying to follow the complete [specialization](https://www.coursera.org/specializations/scala)
-I have been working as a Scala developer for about 9 months now so I have rushed the exercises for the first 2 parts of the specialisation, this is because I wanted to complete them to ensure I had a complete foundation in the language but the actual coding challenges I found weren't challenging enough to warrant taking the time to write code I am particularly proud of.
+I have been working as a Scala developer since Nov 2016 and am loving functional programming since coming from a C# and C++ background.
 
-Hopefully I'll write better code for the final 3 parts of the course.
+You can find my certifcates so far on the course:
+*[Part 1, Functional Programming Principles in Scala](https://www.coursera.org/account/accomplishments/records/8HNVL9B9FX4L)
+*[Part 2, Functional Program Design in Scala](https://www.coursera.org/account/accomplishments/records/38VPPALFZ97N)
 
+Hopefully I'll have the final 3 parts done soon
